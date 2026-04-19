@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-electron
+build/output
+coverage
+playwright-report
+*.min.*
+package-lock.json
+
+# Pre-existing files deferred until a dedicated format pass
+*.md
+docs/
+src/renderer/index.html
+tsconfig.json
