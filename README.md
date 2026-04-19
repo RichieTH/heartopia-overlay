@@ -38,5 +38,5 @@ MIT. See [LICENSE](LICENSE).
 
 Content sourced from community fan sites (heartopia.life,
 heartopiagame.org, heartopia.cc, heartopiawiki.com) with
-permission. Per-entry `source` field and About screen credits
-listed in-app.
+attribution per source. Per-entry `source` field and About
+screen credits listed in-app.
