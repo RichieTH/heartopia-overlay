@@ -1,0 +1,18 @@
+# Enforce LF line endings for all text files across platforms.
+# Without this, Windows runners check out CRLF and Prettier (endOfLine: lf by default) flags every file.
+* text=auto eol=lf
+
+# Binary files — never diff, never text-convert
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.exe binary
+*.dll binary
+*.zip binary
+*.asar binary
