@@ -1,0 +1,50 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.eslintcache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Build outputs
+dist/
+dist-electron/
+out/
+release/
+build/output/
+*.asar
+
+# electron-builder
+build/*.exe
+build/*.zip
+build/*.blockmap
+build/*.yml.lock
+
+# Test & coverage
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Vite cache
+.vite/
