@@ -19,6 +19,7 @@ build/output/
 *.asar
 
 # electron-builder
+!build/
 build/*.exe
 build/*.zip
 build/*.blockmap
