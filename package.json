@@ -1,0 +1,20 @@
+{
+  "name": "heartopia-overlay",
+  "version": "0.0.0",
+  "description": "Windows desktop overlay for Heartopia",
+  "author": "Richard",
+  "license": "MIT",
+  "private": true,
+  "main": "dist-electron/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "build:win": "electron-vite build && electron-builder --win --publish never",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --ext .ts,.vue && prettier --check .",
+    "lint:fix": "eslint . --ext .ts,.vue --fix && prettier --write .",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.web.json && tsc --noEmit -p tsconfig.node.json"
+  }
+}
